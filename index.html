@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculator</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="output">
+      <input type="text" placeholder="0" readonly>
+    </div>
+    <div class="btns">
+      <button onclick="clr()" class="sp">C</button>
+      <button onclick="del()" class="sp">DEL</button>
+      <button onclick="insert('%')" class="sp">%</button>
+      <button onclick="insert('/')" class="sp">÷</button>
+      <button onclick="insert('7')">7</button>
+      <button onclick="insert('8')">8</button>
+      <button onclick="insert('9')">9</button>
+      <button onclick="insert('*')" class="sp">×</button>
+      <button onclick="insert('4')">4</button>
+      <button onclick="insert('5')">5</button>
+      <button onclick="insert('6')">6</button>
+      <button onclick="insert('-')" class="sp">-</button>
+      <button onclick="insert('1')">1</button>
+      <button onclick="insert('2')">2</button>
+      <button onclick="insert('3')">3</button>
+      <button onclick="insert('+')" class="sp">+</button>
+      <button onclick="insert('0')">0</button>
+      <button onclick="insert('.')">.</button>
+      <button onclick="calc()" class="sp equal">=</button>
+    </div>
+    <div class="appmenu">
+      <div class="icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu">
+        <div class="blue"></div>
+        <div class="orange"></div>
+        <div class="red"></div>
+        <div class="purple"></div>
+        <div class="pink"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
